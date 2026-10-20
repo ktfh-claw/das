@@ -60,7 +60,7 @@ class BaseQueryProxy(BaseProxy):
     MAX_ANSWERS = "max_answers"
     USE_LINK_TEMPLATE_CACHE = "use_link_template_cache"
     POPULATE_METTA_MAPPING = "populate_metta_mapping"
-    USE_METTA_AS_QUERY_TOKENS = "user_metta_as_query_tokens"
+    USE_METTA_AS_QUERY_TOKENS = "use_metta_as_query_tokens"
 
     def __init__(self, tokens: list[str], context: str = "") -> None:
         super().__init__()
